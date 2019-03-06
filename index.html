@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<head>
+	<title>Animated Website | Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<link href="css/animate.css" rel="stylesheet"/>
+	<link href="css/waypoints.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+	<script src="js/waypoints.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Devonshire|Kurale|Marck+Script|Norican|Oleo+Script" rel="stylesheet">       
+</head>
+	<body>
+		<header>
+			<div class="brand">
+				Brand Name
+			</div>
+			<button class="ham_btn" onclick="showSideBar('sidebar')">
+				<div class="btn_wrapper">
+					<div class="icon_bar"></div>
+					<div class="icon_bar"></div>
+					<div class="icon_bar"></div>
+				</div>
+			</button>
+
+			<nav class="d-flex justify-content-center">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Our Products</a>
+						<ul>
+							<li><a href="#"># Product 1</a></li>
+							<li><a href="#"># Product 2</a></li>
+							<li><a href="#"># Product 3</a></li>
+							<li><a href="#"># Product 4</a></li>
+							<li><a href="#"># Product 5</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Reviews</a>
+						<ul>
+							<li><a href="#"># Review 1</a></li>
+							<li><a href="#"># Review 2</a></li>
+							<li><a href="#"># Review 3</a></li>
+							<li><a href="#"># Review 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul><br clear="all">
+			</nav>	
+		</header>
+
+		<aside id="sidebar" class="sidebar col-md-3 col-sm-4 col-5">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Our Products</a>
+					<ul>
+						<li><a href="#"># Product 1</a></li>
+						<li><a href="#"># Product 2</a></li>
+						<li><a href="#"># Product 3</a></li>
+						<li><a href="#"># Product 4</a></li>
+						<li><a href="#"># Product 5</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Reviews</a>
+					<ul>
+						<li><a href="#"># Review 1</a></li>
+						<li><a href="#"># Review 2</a></li>
+						<li><a href="#"># Review 3</a></li>
+						<li><a href="#"># Review 4</a></li>
+					</ul>
+				</li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul><br clear="all">		
+		</aside>
+
+		<div class="landing_img col-md-12 col-xs-12 col-sm-12 col-lg-12 col-xl-12 d-flex flex-column justify-content-center">
+			<div class="intro_text">
+				<h1 class="os-animation textBorder" data-os-animation="bounceInUp" data-os-animation-delay="0s">It's so Easy</h1>
+				<input type="button" value="Get Started" class="os-animation textBorder" data-os-animation="bounceInUp" data-os-animation-delay="0.4s" onclick="init(),scrolldownpage('info_sec')"/>
+				<div class="container-fluid col-md-5 col-sm-8 col-xs-10 os-animation" data-os-animation="bounceIn" data-os-animation-delay="1.4s">
+					<p class="p-2">
+						<span><i class="fa fa-quote-left"></i><span>&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,&nbsp;&nbsp;&nbsp;
+						<span><i class="fa fa-quote-right"></i></span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!--Starting of From the Author-->
+		
+
+		<section class="info_sec" id="info_sec">
+			<h2 class="os-animation" data-os-animation="fadeInDown" data-os-animation-delay="0.2s">From the Author</h2>
+			<p class="col-md-10 col-sm-8 col-xs-6 container-fluid d-flex justify-content-center os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.7s">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p class="col-md-10 col-sm-8 col-xs-6 container-fluid d-flex justify-content-center os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.7s">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+
+		<!--Ending of From the Author-->
+		
+		<!--=======================================================================================-->
+		
+		<!--Starting of the Tips-->
+
+
+		<section>
+			<div class="tips_wrapper">
+				<h2>Here are the 5 methods that you may adapt for writing better programs...!!!</h2>
+				<div class="tips tip_1 d-flex flex-column justify-content-center">
+					<h2 class="os-animation" data-os-animation="swing" data-os-animation-delay="0.3">1. Write in silence or with music that helps you focus.</h2>
+				</div>
+				<div class="description">
+					<p class="col-md-10 col-sm-8 col-xs-6 container-fluid d-flex justify-content-center os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.7s">
+						Let's face it: the music we like is pretty distracting, especially the type of music with strong lyrics.
+						That said, some of us like white noise over silence. For me, writing in a coffee shop is actually preferable to writing in my office.
+						Everyone is different in this case, so it's important to identify the best method for getting you focused, whether it be classical music, 
+						techno, or even nature sounds.
+						The more focus you have, the easier it will be for you to write quickly and in one setting.
+					</p>
+				</div>
+				<div class="tips tip_2 d-flex flex-column justify-content-center">
+					<h2 class="os-animation" data-os-animation="swing" data-os-animation-delay="0.3">2. Build out the logic of the code.</h2>
+				</div>
+				<div class="description">
+					<p class="col-md-10 col-sm-8 col-xs-6 container-fluid d-flex justify-content-center os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0.7s">
+						You want your work to be useful for the people who read it. The trouble is that our scattered thoughts tend to 
+						lead to essays with a flow only we understand easily.
+						This can be avoided by simply thinking through what you're going to write 
+						before you start rambling away. Granted, it's still important to let yourself 
+						be inspired as you're putting the words together, 
+						but structure will help you keep everything organized and on point.
+					</p>
+				</div>
+				<div class="tips tip_3 d-flex flex-column justify-content-center">
+					<h2 class="os-animation" data-os-animation="swing" data-os-animation-delay="0.3">3. Read more.</h2>
+				</div>
+				<div class="description">
+					<p class="col-md-10 col-sm-8 col-xs-6 container-fluid d-flex justify-content-center os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.7s">
+						You've probably heard this a million times, but that doesn't 
+						make it any less true. The best writers are the best readers.
+						This is because reading ensures that you're still learning and consuming content. 
+						The details of writing include the ability to form phrases and transitions that exhibit 
+						expert writing skills. Most of these "details" are picked up subconsciously as we read books and news articles consistently. In fact, 
+						I personally take this to the extreme by always opting for Closed Captions and subtitles for all of the visual media I consume, 
+						which includes movies, television, and even video games.
+						It may seem excessive, but this allows you to draw from a larger pool of words 
+						and expressions that keep your writing fresh and unique.
+					</p>
+				</div>
+				<div class="tips tip_4 d-flex flex-column justify-content-center">
+					<h2 class="os-animation" data-os-animation="swing" data-os-animation-delay="0.3">4. Kill your comfort zone.</h2>
+				</div>
+				<div class="description">
+					<p class="col-md-10 col-sm-8 col-xs-6 container-fluid d-flex justify-content-center os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0.7s">
+						Writing can be like a relationship. We spend so much time with that person, 
+						that we begin to get bored with the relationship. The same goes with writing.
+						Kill your comfort zone by writing somewhere new. Go to a coffee shop, out in the woods or even sit in your 
+						car to write. Force yourself to stay there until you're finished.
+						Writing in a familiar environment with too many distractions (like our homes) keeps us from writing faster. 
+						But if you're in a place 
+						where the only thing you can do is write, then the task gets done much quicker.
+					</p>
+				</div>
+				<div class="tips tip_5 d-flex flex-column justify-content-center">
+					<h2 class="os-animation" data-os-animation="swing" data-os-animation-delay="0.3">5. Write for yourself.</h2>
+				</div>
+				<div class="description">
+					<p class="col-md-10 col-sm-8 col-xs-6 container-fluid d-flex justify-content-center os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.7s">
+						This may seem contradictory to what I just said, but stay with me.
+						When you first start to write, it's usually for yourself. You don't have an audience yet, 
+						so no one is really expecting anything from you.
+						Time goes on, however, and people start watching you. 
+						It's easy to start believing it's more important to write for them than yourself. 
+						In some cases, your job is to cater to an audience, which is fine to an extent. 
+						But if you want your writing to keep growing and making you happy, then it's 
+						important to set aside a place where you can write for yourself, whether it be a personal blog, a journal or something different.
+					</p>
+				</div>	
+			</div>
+		</section><br class="space">
+		
+		<!--Ending of Tips-->
+
+		<footer>
+			<h6>
+				Simple Responsive Website By Rahul &copy;
+			</h6>
+		</footer>
+
+
+	</body>
+	<script type="text/javascript">
+		var check=1;
+		var destination;
+        var speed;
+        var scroller;
+        var distance;
+        function init()
+        {
+            destination=0;
+            speed=10;
+            scroller=null;
+            distance=0;
+        }
+        function scrolldownpage(elemid)
+        {
+            destination=document.getElementById(elemid).offsetTop;
+            scroller=setTimeout(function(){scrolldownpage(elemid);},1);
+            distance=distance+speed;
+            if(distance>=destination)
+            {
+                clearTimeout(scroller);
+            }
+            window.scrollTo(0,distance-60);
+        }
+		function showSideBar(idName) 
+		{
+			
+			if(this.check==1)
+			{
+				document.getElementById(idName).style.width="100%";
+				this.check=0;
+			}
+			else
+			{
+				this.check=1;
+				document.getElementById(idName).style.width="0%";
+			}
+		}
+		function autoHide(idName)
+		{
+			this.check=1;
+			document.getElementById(idName).style.width="0%";
+		}
+		window.addEventListener("resize", function(event) 
+		{
+    		console.log(document.body.clientWidth + ' wide by ' + document.body.clientHeight+' high');
+    		if(document.body.clientWidth>1034)
+				autoHide('sidebar');
+		});
+	</script>
+</html>
